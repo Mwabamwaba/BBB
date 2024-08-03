@@ -17,6 +17,37 @@
         border-color: aliceblue;
     }
 
+    .steps-container {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.steps-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.steps-list li {
+    margin: 3px 0;
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+}
+
+.steps-list li:last-child {
+    border-bottom: none;
+}
+
+
+
+
+
     </style>
 </head>
 <body>
@@ -27,12 +58,24 @@
       ORDER
     </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="#">Action</a></li>
-      <li><a class="dropdown-item" href="#">Another action</a></li>
-      <li><a class="dropdown-item" href="#">Something else here</a></li>
-     
+      <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSffXrPoytpOF4j0D8yWne8QZSg2SkjcaS9n6Gd7MlgHNmDmEw/viewform?usp=sf_link">Open ORDER Form</a></li>
+      <li><a class="dropdown-item" href="#">Facebook</a></li>
+      <li><a class="dropdown-item" href="#">About</a></li>
+      
     </ul>
   </div>
+
+
+  <div class="steps-container">
+    <h6> <b>STEPS TO ORDER</b> </h6>
+    <ul class="steps-list">
+        <li><b>Step 1:</b>Take a Screenshot of the Product</li>
+        <li><b>Step 2:</b> Open and fill in the order form</li>
+        <li><b>Step 3:</b> Submit and you will recieve a call</li>
+    </ul>
+</div>
+
+
 <div>
 <iframe id="catalogue" src="https://bbb.co.za/catalogue" frameborder="0"></iframe>
 </div>
