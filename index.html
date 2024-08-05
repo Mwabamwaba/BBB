@@ -18,7 +18,7 @@
     }
 
     .steps-container {
-    position:relative;
+    position:unset;
     top: 2px;
     right: 2px;
     background-color: #f9f9f9;
@@ -44,36 +44,81 @@
     border-bottom: none;
 }
 
+/* Header CSS*/
 
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #f8f8f8; /* Adjust as needed */
+    position: relative;
+}
 
+.logo-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Ensure height is the same as width for a perfect circle */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover; /* Ensures the image covers the entire circle */
+}
+
+.text-container {
+    flex: 100;
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 16px; /* Adjust as needed */
+    color: #333; /* Adjust as needed */
+    margin: 0;
+}
 
 
     </style>
 </head>
 <body>
+    
+    <header>
+        <div class="logo-container">
+            <img src="BBB logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="text-container">
+
+        </div>
+    </header>
    
     <!-- Example single danger button -->
 <div class="btn-group">
     <button id="but" type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-      ORDER
+      ORDER HERE
     </button>
     <ul class="dropdown-menu">
-      <li><a class="dropdown-item" href="https://forms.gle/4VHQtKuB4YNzYrnZA">Open ORDER Form</a></li>
-      <li><a class="dropdown-item" href="#">Facebook</a></li>
-      <li><a class="dropdown-item" href="#">About</a></li>
+      <li><a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSffXrPoytpOF4j0D8yWne8QZSg2SkjcaS9n6Gd7MlgHNmDmEw/viewform?usp=sf_link">Open ORDER Form</a></li>
+      <li><a class="dropdown-item" href="https://web.facebook.com/profile.php?id=61563935721794 ">Facebook</a></li>
+    
       
     </ul>
   </div>
 
 
   <div class="steps-container">
+   
     <h6> <b>STEPS TO ORDER</b> </h6>
     <ul class="steps-list">
         <li><b>Step 1:</b>Take a Screenshot of the Product</li>
         <li><b>Step 2:</b> Open and fill in the order form</li>
         <li><b>Step 3:</b> Submit and you will recieve a call</li>
+        <li><b>NOTE:</b> Payments are done upon seeing the Product</li>
     </ul>
 </div>
+
+
 
 
 <div>
